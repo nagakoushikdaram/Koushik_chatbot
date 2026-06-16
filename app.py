@@ -7,13 +7,12 @@ client = OpenAI(
     api_key=st.secrets["GROQ_API_KEY"]
 )
 
-st.set_page_config(page_title="AI Workspace", layout="centered")
-
+st.set_page_config(page_title="Koushik's ChatBot", layout="centered")
 # [Insert your Custom CSS here - I left it out for brevity, keep what you had]
 
 st.markdown("""
 <div class="hero-container">
-    <div class="brand-title">AI School of India</div>
+    <div class="brand-title">Koushik's ChatBot</div>
     <div class="brand-subtitle">Cloud-hosted AI Workspace <span class="mono-tag">production-ready</span></div>
 </div>
 """, unsafe_allow_html=True)
