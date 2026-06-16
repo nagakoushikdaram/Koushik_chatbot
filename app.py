@@ -34,10 +34,10 @@ if user_prompt:
 
     with st.chat_message("assistant"):
         stream = client.chat.completions.create(
-            model="llama3-8b-8192", # Groq model name
-            messages=[{"role": m["role"], "content": m["content"]} for m in st.session_state.messages],
-            stream=True,
-        )
+    model="llama3-8b-8192", 
+    messages=[...],
+    stream=True,
+)
         response = st.write_stream(stream)
     
     st.session_state.messages.append({"role": "assistant", "content": response})
