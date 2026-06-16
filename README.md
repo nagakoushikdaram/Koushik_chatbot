@@ -1,11 +1,26 @@
-# 🤖 Local AI Workspace
+# 🤖 Koushik's ChatBot
 
-Your own personal AI chatbot that lives entirely on your machine. 
+A lightning-fast, cloud-hosted AI workspace built with Python and Streamlit. 
 
-I built this using Python, Streamlit, and Ollama to create a private, fully local alternative to ChatGPT. You can chat with open-source models (like Llama 3, Mistral, or Qwen) without needing API keys, constant internet access, or expensive cloud subscriptions. Zero data leaves your computer.
+Originally built as a local prototype, this project has been upgraded to use the OpenAI Python client paired with Groq's ultra-fast inference engine. It provides a clean, utilitarian interface to interact with powerful open-source models (like Llama 3) in the cloud.
 
-### Why I built this
-* **100% Private:** Your chat history and data stay strictly on your local hard drive.
-* **Zero Cost:** No OpenAI credits or monthly limits.
-* **Utilitarian UI:** A clean, minimalist interface inspired by professional dev tools—no unnecessary clutter.
-* **Plug & Play:** If you have Python and Ollama installed, you're good to go in seconds.
+### 🌟 Features
+* **Cloud-Hosted:** Deployed live on Streamlit Community Cloud.
+* **Blazing Fast Inference:** Powered by Groq for near-instant text generation.
+* **Industry Standard Code:** Uses the official `openai` Python library, making it easily adaptable for GPT-4, Claude, or Gemini.
+* **Utilitarian UI:** A minimalist, distraction-free interface inspired by professional developer tools.
+
+### 🛠️ Tech Stack
+* **Frontend:** Streamlit
+* **Backend:** Python
+* **LLM Provider:** Groq (Llama-3-8b)
+* **API Client:** OpenAI Python SDK
+
+### 💻 How to Run Locally
+
+If you want to clone this repository and run it on your own machine:
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/nagakoushikdaram/Koushik_chatbot.git](https://github.com/nagakoushikdaram/Koushik_chatbot.git)
+   cd Koushik_chatbot
